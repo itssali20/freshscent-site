@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>FreshScent Box</title>
+<meta name="description" content="High-quality professional dry cleaning where you live, where you work, and where you shop. Drop it in the FreshScent Box™ anytime, day or night. We'll take care of the rest.™">
+<meta name="theme-color" content="#0E2A5C">
+<meta property="og:title" content="FreshScent Box™ — Just drop it in the box.">
+<meta property="og:description" content="High-quality dry cleaning where you live, where you work, and where you shop.">
+<meta property="og:image" content="assets/img/hero.webp">
+<link rel="icon" href="assets/img/favicon.png" type="image/png">
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/fraunces.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/figtree.woff2" crossorigin>
+<link rel="preload" as="image" href="assets/img/hero.webp">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="is-loading">
+
+<a class="skip" href="#about">Skip to content</a>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="nav__bar">
+    <a class="nav__logo" href="#top" aria-label="FreshScent home"><img src="assets/img/logo.png" alt="FreshScent Cleaner" width="640" height="306"></a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#how">How it works</a>
+      <a href="#where">Locations</a>
+      <a href="#promise">Our promise</a>
+      <a href="#properties">For properties</a>
+    </nav>
+    <a class="btn btn--leaf btn--sm nav__cta" href="#find">Find a Box</a>
+    <button class="nav__burger" id="burger" aria-expanded="false" aria-controls="menu" aria-label="Open menu"><span></span><span></span></button>
+  </div>
+  <div class="menu" id="menu" hidden>
+    <a href="#how">How it works</a>
+    <a href="#where">Locations</a>
+    <a href="#promise">Our promise</a>
+    <a href="#properties">For properties</a>
+    <a href="#find" class="btn btn--leaf">Find a FreshScent Box™</a>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="hero">
+  <div class="hero__sky" aria-hidden="true"><i class="puff puff--1"></i><i class="puff puff--2"></i><i class="puff puff--3"></i></div>
+  <div class="wrap hero__grid">
+    <div class="hero__copy">
+      <p class="eyebrow" data-hero>FreshScent Box™ · Professional dry cleaning</p>
+      <h1 class="hero__title">
+        <span class="line"><span>Now you don’t have</span></span>
+        <span class="line"><span>to go to the</span></span>
+        <span class="line"><span><em>dry cleaner.</em></span></span>
+      </h1>
+      <p class="hero__sub" data-hero>High-quality dry cleaning where you live, where you work, and where you shop. Drop it in the box, anytime, day or night. We’ll take care of the rest.™</p>
+      <div class="hero__ctas" data-hero>
+        <a class="btn btn--leaf" href="#find">Find a FreshScent Box™ <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11m-4-4 4 4-4 4"/></svg></a>
+        <a class="btn btn--ghost" href="#properties">Bring it to your property</a>
+      </div>
+      <ul class="hero__facts" data-hero>
+        <li><b>3–4</b><span>business days back to you</span></li>
+        <li><b>24/7</b><span>drop-off, day or night</span></li>
+        <li><b>Live · Work · Shop</b><span>where the boxes are</span></li>
+      </ul>
+    </div>
+    <div class="hero__visual">
+      <div class="hero__frame" id="heroFrame">
+        <img src="assets/img/hero.webp" alt="FreshScent written in clouds above a sunny meadow of daisies" width="1536" height="1024">
+      </div>
+      <p class="chip chip--a" data-chip><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19c0-8 5-13 14-14-1 9-6 14-14 14Zm0 0 7-7"/></svg>Fresh clothes. A brighter you.</p>
+      <p class="chip chip--b" data-chip><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Anytime, day or night</p>
+    </div>
+  </div>
+</section>
+
+<!-- intro: 3s film that flies into the hero frame -->
+<div class="intro" id="intro" hidden aria-hidden="true">
+  <div class="intro__ambient"></div>
+  <div class="intro__media" id="introMedia"><video id="introVideo" muted playsinline preload="auto" poster="assets/img/hero.webp"><source src="assets/video/intro.webm" type="video/webm"><source src="assets/video/intro.mp4" type="video/mp4"></video></div>
+  <p class="intro__tag" id="introTag">Fresh clothes. A brighter you.</p>
+</div>
+
+<!-- ============ FINISHES ============ -->
+<section class="finishes" id="finishes">
+  <div class="wrap">
+    <header class="finishes__head">
+      <div>
+        <p class="eyebrow">The FreshScent Box™</p>
+        <h2 class="h-display" data-reveal>Finished to suit <em>the space.</em></h2>
+      </div>
+      <p class="lead" data-reveal>One secure drop-off and pickup box, wrapped to belong wherever it stands: a residential lobby, a busy mall, or a building that loves its art.</p>
+    </header>
+    <div class="wraps__row" id="wraps">
+      <figure class="tilt">
+        <div class="tilt__img"><img src="assets/img/box-navy.webp" alt="FreshScent Box in a navy and leaf finish" loading="lazy"></div>
+        <figcaption><b>Lobby</b><span>Clean white and navy with fresh green leaves.</span></figcaption>
+      </figure>
+      <figure class="tilt">
+        <div class="tilt__img"><img src="assets/img/box-wave.webp" alt="FreshScent Box in a blue and green wave finish" loading="lazy"></div>
+        <figcaption><b>Mall</b><span>Flowing blue and green waves that catch the eye.</span></figcaption>
+      </figure>
+      <figure class="tilt">
+        <div class="tilt__img"><img src="assets/img/box-mosaic.webp" alt="FreshScent Box in a colorful mosaic art finish" loading="lazy"></div>
+        <figcaption><b>Gallery</b><span>A bold art wrap that turns the box into a centerpiece.</span></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT / STATEMENT ============ -->
+<section class="about" id="about">
+  <div class="wrap">
+    <div class="about__intro">
+      <div>
+        <p class="eyebrow">High-quality dry cleaning, where you already are</p>
+        <p class="statement" id="statement">FreshScent Box™ brings <em>high-quality professional dry cleaning</em> directly into your everyday life. Anytime, day or night, simply drop your garments into a conveniently located FreshScent&nbsp;Box™.</p>
+      </div>
+      <figure class="about__img" data-reveal>
+        <img src="assets/img/courier.webp" alt="A FreshScent courier handing a customer her freshly cleaned garments in a FreshScent bag" width="1312" height="1199" loading="lazy">
+        <figcaption><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19c0-8 5-13 14-14-1 9-6 14-14 14Zm0 0 7-7"/></svg>Fresh clothes. A brighter you.</figcaption>
+      </figure>
+    </div>
+
+    <ul class="places" data-stagger>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11 12 4l9 7M5 10v10h14V10M10 20v-6h4v6"/></svg><div><strong>Where you live</strong><span>In your apartment or condominium building</span></div></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 21V5l8-2v18M12 8h8v13M7 8h2M7 12h2M7 16h2M15 12h2M15 16h2M2 21h20"/></svg><div><strong>Where you work</strong><span>In your office building</span></div></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.4 11.2a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.5L21 8H6.2M10 20.5h.01M17 20.5h.01"/></svg><div><strong>Where you shop</strong><span>At your favorite supermarket</span></div></li>
+    </ul>
+
+    <div class="drop">
+      <div class="drop__head">
+        <h2 class="h-display" data-reveal>Just drop it in the box.</h2>
+        <p class="drop__tm" data-reveal>We’ll take care of the rest.™</p>
+      </div>
+      <div class="drop__body">
+        <p data-reveal>Your garments are conveniently picked up and professionally cared for by our <strong>excellent, highly trained and experienced dry-cleaning professionals</strong>. Every garment receives the high-quality care and personal attention it deserves.</p>
+        <div class="days" data-reveal>
+          <span class="days__num">3–4</span>
+          <span class="days__label">business days until your garments are back, beautifully clean, fresh, and ready to wear.</span>
+        </div>
+        <ul class="nolist" data-stagger>
+          <li>No special trip to the dry cleaner.</li>
+          <li>No standing in line.</li>
+          <li>No rearranging your schedule.</li>
+          <li>No more carrying your dry cleaning around for days.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee" aria-label="Excellent quality. Wonderful service. Amazing convenience. Great prices.">
+  <div class="marquee__track" id="marquee" aria-hidden="true">
+    <span>Excellent quality</span><i></i><span>Wonderful service</span><i></i><span>Amazing convenience</span><i></i><span>Great prices</span><i></i>
+    <span>Excellent quality</span><i></i><span>Wonderful service</span><i></i><span>Amazing convenience</span><i></i><span>Great prices</span><i></i>
+  </div>
+</div>
+
+<!-- ============ PROBLEM (HORIZONTAL) ============ -->
+<section class="problem" id="problem">
+  <div class="problem__pin">
+    <div class="problem__track" id="problemTrack">
+      <div class="panel panel--intro">
+        <p class="eyebrow">Your time is valuable</p>
+        <h2 class="h-display">No more wasting your time going to the dry cleaner.</h2>
+        <p class="lead">FreshScent Box™ was created to eliminate one more unnecessary errand from your busy life.</p>
+        <p class="panel__hint" aria-hidden="true">Keep scrolling <svg viewBox="0 0 20 20"><path d="M4 10h11m-4-4 4 4-4 4"/></svg></p>
+      </div>
+
+      <article class="panel panel--img">
+        <figure><img src="assets/img/line.webp" alt="A long line of people holding dry cleaning outside a dry cleaner" loading="lazy"></figure>
+        <div class="panel__txt">
+          <h3>No more waiting in line.</h3>
+          <p>No more standing in line at the dry cleaner just to drop off your clothes. With FreshScent Box™, dropping off your garments takes only moments. <strong>Drop them in the box and continue with your day.</strong></p>
+        </div>
+      </article>
+
+      <article class="panel panel--img">
+        <figure><img src="assets/img/home.webp" alt="A man on his sofa thinking about the dry cleaning he still hasn’t dropped off" loading="lazy"></figure>
+        <div class="panel__txt">
+          <h3>No more clothes sitting at home for days or weeks.</h3>
+          <p>Your clothes need to go to the dry cleaner. You plan to take them tomorrow. Tomorrow becomes another day. Another day becomes another week.</p>
+        </div>
+      </article>
+
+      <article class="panel panel--img">
+        <figure><img src="assets/img/car.webp" alt="A woman in a car packed with dry cleaning, stuck outside a dry cleaner" loading="lazy"></figure>
+        <div class="panel__txt">
+          <h3>No more driving around with your dry cleaning in the car.</h3>
+          <p>You plan to stop at the dry cleaner. Then your day gets busy. So your clothes stay in your car. Sometimes for days.</p>
+        </div>
+      </article>
+
+      <div class="panel panel--answer">
+        <p class="eyebrow eyebrow--light">FreshScent changes that</p>
+        <h2 class="h-display">The dry cleaner is now where you already are.</h2>
+        <p>When a FreshScent Box™ is located right inside your building, you can drop off your garments whenever it works for you. Morning or evening. Before work or after work. Weekday or weekend.</p>
+        <p class="panel__strong">Anytime, day or night.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHERE (OPENING CARDS) ============ -->
+<section class="where" id="where">
+  <div class="wrap">
+    <header class="sec-head">
+      <p class="eyebrow">Locations</p>
+      <h2 class="h-display" data-reveal>Where you live. Where you work. Where&nbsp;you&nbsp;shop.</h2>
+    </header>
+
+    <p class="acc__hint" aria-hidden="true"><span></span>Tap a card to open it</p>
+    <div class="acc" id="acc">
+      <article class="acard acard--live">
+        <h3 class="acard__h"><button class="acard__btn" type="button" aria-expanded="false" aria-controls="acc-live">
+          <span class="acard__media"><img class="acard__blur" src="assets/img/live.webp" alt="" loading="lazy"><img class="acard__pic" src="assets/img/live.webp" alt="" loading="lazy"></span>
+          <span class="acard__kicker"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11 12 4l9 7M5 10v10h14V10M10 20v-6h4v6"/></svg>Where you live</span>
+          <span class="acard__title">Now you don’t have to leave home to have your dry cleaning done.</span>
+          <span class="acard__more"><span class="acard__label">Open</span><span class="acard__plus" aria-hidden="true"></span></span>
+        </button></h3>
+        <div class="acard__body" id="acc-live" role="region" aria-label="Where you live">
+          <div class="acard__inner">
+            <p>Imagine having high-quality professional dry cleaning right inside your apartment or condominium building. The FreshScent Box™ sits in a designated area of your building. Simply bring your garments downstairs and drop them into the box. That’s it.</p>
+            <ul class="ticks"><li>No driving to the dry cleaner</li><li>No looking for parking</li><li>No standing in line</li><li>No rushing before closing</li></ul>
+            <p class="acard__foot">High-quality dry cleaning, without leaving home.</p>
+          </div>
+        </div>
+      </article>
+      <article class="acard acard--work">
+        <h3 class="acard__h"><button class="acard__btn" type="button" aria-expanded="false" aria-controls="acc-work">
+          <span class="acard__media"><img class="acard__blur" src="assets/img/work.webp" alt="" loading="lazy"><img class="acard__pic" src="assets/img/work.webp" alt="" loading="lazy"></span>
+          <span class="acard__kicker"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 21V5l8-2v18M12 8h8v13M7 8h2M7 12h2M7 16h2M15 12h2M15 16h2M2 21h20"/></svg>Where you work</span>
+          <span class="acard__title">Your dry cleaner can now be right in your office building.</span>
+          <span class="acard__more"><span class="acard__label">Open</span><span class="acard__plus" aria-hidden="true"></span></span>
+        </button></h3>
+        <div class="acard__body" id="acc-work" role="region" aria-label="Where you work">
+          <div class="acard__inner">
+            <p>Bring your garments with you in the morning. Drop them into the FreshScent Box™ in the lobby. Then head upstairs and continue with your workday. They’re returned to your building within 3–4 business days.</p>
+            <ul class="ticks"><li>No stop on the way to work</li><li>No stop on the way home</li><li>No clothes sitting in your car all day</li></ul>
+            <p class="acard__foot">High-quality dry cleaning, right where you work.</p>
+          </div>
+        </div>
+      </article>
+      <article class="acard acard--shop">
+        <h3 class="acard__h"><button class="acard__btn" type="button" aria-expanded="false" aria-controls="acc-shop">
+          <span class="acard__media"><img class="acard__blur" src="assets/img/shop.webp" alt="" loading="lazy"><img class="acard__pic" src="assets/img/shop.webp" alt="" loading="lazy"></span>
+          <span class="acard__kicker"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.4 11.2a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.5L21 8H6.2M10 20.5h.01M17 20.5h.01"/></svg>Where you shop</span>
+          <span class="acard__title">Drop off your dry cleaning while you do your shopping.</span>
+          <span class="acard__more"><span class="acard__label">Open</span><span class="acard__plus" aria-hidden="true"></span></span>
+        </button></h3>
+        <div class="acard__body" id="acc-shop" role="region" aria-label="Where you shop">
+          <div class="acard__inner">
+            <p>Going to your favorite supermarket? Bring your dry cleaning with you. Drop your garments into the FreshScent Box™ and continue with your shopping. Your beautifully cleaned garments come back to the same location for convenient pickup.</p>
+            <ul class="ticks"><li>A trip you were already making</li><li>Pickup, cleaning, finishing, and return handled</li></ul>
+            <p class="acard__foot">Drop it off. Shop. We’ll take care of the rest.™</p>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOW IT WORKS ============ -->
+<section class="how" id="how">
+  <div class="wrap">
+    <header class="sec-head">
+      <p class="eyebrow">How FreshScent works</p>
+      <h2 class="h-display" data-reveal>It really can be that simple.</h2>
+    </header>
+    <ol class="hsteps" data-stagger>
+      <li class="hstep">
+        <div class="hstep__media"><img class="hstep__blur" src="assets/img/step1.webp" alt="" loading="lazy"><img class="hstep__pic" src="assets/img/step1.webp" alt="A customer placing her laundry bag into a FreshScent Box" loading="lazy"></div>
+        <span class="hstep__n">01</span>
+        <h3>Drop it off.</h3>
+        <p>Anytime, day or night, place your garments into a conveniently located FreshScent Box™. It takes only moments.</p>
+      </li>
+      <li class="hstep">
+        <div class="hstep__media"><img class="hstep__blur" src="assets/img/step2.webp" alt="" loading="lazy"><img class="hstep__pic" src="assets/img/step2.webp" alt="A FreshScent courier collecting garments from the box" loading="lazy"></div>
+        <span class="hstep__n">02</span>
+        <h3>We pick it up.</h3>
+        <p>FreshScent securely collects your garments and transports them for high-quality professional dry cleaning.</p>
+      </li>
+      <li class="hstep">
+        <div class="hstep__media"><img class="hstep__blur" src="assets/img/worker.webp" alt="" loading="lazy"><img class="hstep__pic" src="assets/img/worker.webp" alt="A FreshScent professional among racks of finished garments" loading="lazy"></div>
+        <span class="hstep__n">03</span>
+        <h3>Our professionals take care of your clothes.</h3>
+        <p>Each garment is professionally cleaned, carefully handled, inspected, and beautifully finished. Because convenience should never mean compromising on quality.</p>
+      </li>
+      <li class="hstep">
+        <div class="hstep__media"><img class="hstep__blur" src="assets/img/step3.webp" alt="" loading="lazy"><img class="hstep__pic" src="assets/img/step3.webp" alt="A happy customer holding her returned FreshScent bag" loading="lazy"></div>
+        <span class="hstep__n">04</span>
+        <h3>We bring it back.</h3>
+        <p>Within 3–4 business days, your freshly finished garments are returned to your FreshScent Box™ location. Pick them up and enjoy.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ QUALITY ============ -->
+<section class="quality" id="quality">
+  <div class="quality__media"><img src="assets/img/worker.webp" alt="A FreshScent dry-cleaning professional among racks of freshly finished garments" loading="lazy"></div>
+  <div class="wrap quality__grid">
+    <h2 class="h-display" data-reveal>High-quality dry cleaning from people who know dry cleaning.</h2>
+    <div class="quality__copy">
+      <p data-reveal>Behind every FreshScent Box™ is a team of <strong>experienced dry-cleaning professionals</strong>. FreshScent isn’t only about making dry cleaning more convenient. It’s about combining amazing convenience with excellent quality.</p>
+      <p data-reveal>Our dry-cleaning professionals take pride in their work and understand that your garments deserve careful, professional attention.</p>
+      <p class="quality__pull" data-reveal>Your clothes should come back beautifully clean, fresh, professionally finished, and ready to wear.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROMISE ============ -->
+<section class="promise" id="promise">
+  <div class="wrap promise__grid">
+    <div class="promise__media">
+      <img src="assets/img/promise.webp" alt="FreshScent: the most amazing quality cleaning, over a field of flowers" loading="lazy">
+    </div>
+    <div class="promise__body">
+      <p class="eyebrow">The FreshScent promise</p>
+      <h2 class="h-display" data-reveal>Four things you can count on.</h2>
+      <div class="pillars" data-stagger>
+        <article class="pillar">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12l3 6-9 12L3 9l3-6ZM3 9h18M9 3l3 18 3-18"/></svg>
+          <h3>Excellent quality</h3>
+          <p>Professional garment care from experienced, highly trained dry-cleaning professionals who take pride in careful attention to every garment.</p>
+        </article>
+        <article class="pillar">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10Z"/></svg>
+          <h3>Wonderful service</h3>
+          <p>From the moment you place your garments into the FreshScent Box™ until they’re returned, we’re committed to wonderful, dependable service.</p>
+        </article>
+        <article class="pillar">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          <h3>Amazing convenience</h3>
+          <p>Available where you live, where you work, and where you shop. Drop off anytime, day or night, whenever it’s convenient for you.</p>
+        </article>
+        <article class="pillar">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12V4h8l10 10-8 8L3 12ZM7.5 7.5h.01"/></svg>
+          <h3>Great prices</h3>
+          <p>High-quality professional dry cleaning at great prices, combined with the exceptional convenience of FreshScent Box™.</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ THE BOX ============ -->
+<section class="box" id="box">
+  <div class="wrap box__grid">
+    <div class="box__copy">
+      <p class="eyebrow">The FreshScent Box™</p>
+      <h2 class="h-display" data-reveal>One box. Placed where your day already goes.</h2>
+      <p class="lead" data-reveal>A compact, secure drop-off and pickup point that fits a building lobby, an office entrance, or a supermarket front.</p>
+      <dl class="specs" data-stagger>
+        <div><dt>Width</dt><dd>48<small>in</small></dd></div>
+        <div><dt>Height</dt><dd>60<small>in</small></dd></div>
+        <div><dt>Depth</dt><dd>26<small>in</small></dd></div>
+      </dl>
+      <ul class="feat" data-stagger>
+        <li><b>Drop-off door</b> Place your garments inside in moments.</li>
+        <li><b>Touchscreen</b> Drop off, pick up, and manage your account.</li>
+        <li><b>Pickup drawer</b> Collect your finished garments.</li>
+      </ul>
+    </div>
+    <figure class="box__spec"><img src="assets/img/spec.webp" alt="FreshScent Box shown 48 inches wide, 60 inches tall and 26 inches deep, with front, side and drawer views" loading="lazy"></figure>
+  </div>
+</section>
+
+<!-- ============ WHY ============ -->
+<section class="why" id="why">
+  <div class="wrap why__grid">
+    <div>
+      <p class="eyebrow">Why FreshScent?</p>
+      <h2 class="h-display" data-reveal>Because you have better things to do with your time.</h2>
+      <ul class="strike" id="strike">
+        <li><span>No more waiting in line.</span></li>
+        <li><span>No more clothes sitting at home for days or weeks.</span></li>
+        <li><span>No more dry cleaning riding around in your car.</span></li>
+        <li><span>No more rushing to the dry cleaner before it closes.</span></li>
+        <li><span>No more extra trips.</span></li>
+      </ul>
+    </div>
+    <div class="why__instead">
+      <div class="carousel" id="whyCarousel" aria-roledescription="carousel" aria-label="FreshScent customers">
+        <div class="carousel__track" id="whyCarouselTrack">
+          <figure class="carousel__slide"><img src="assets/img/baby.jpeg" alt="A parent holding a baby, free to enjoy the moment while FreshScent takes care of the dry cleaning" loading="lazy"></figure>
+          <figure class="carousel__slide"><img src="assets/img/trunk.webp" alt="A woman juggling armfuls of dry cleaning from an overflowing car trunk" loading="lazy"></figure>
+        </div>
+        <button class="carousel__nav carousel__nav--prev" id="whyCarouselPrev" type="button" aria-label="Previous image"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M12 4 5 10l7 6"/></svg></button>
+        <button class="carousel__nav carousel__nav--next" id="whyCarouselNext" type="button" aria-label="Next image"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M8 4l7 6-7 6"/></svg></button>
+        <div class="carousel__dots" id="whyCarouselDots" role="tablist" aria-label="Choose image">
+          <button type="button" role="tab" aria-selected="true" aria-label="Image 1"></button>
+          <button type="button" role="tab" aria-selected="false" aria-label="Image 2"></button>
+        </div>
+      </div>
+      <div class="instead" data-stagger>
+        <p class="instead__lbl">Instead:</p>
+        <p>Excellent quality.</p><p>Wonderful service.</p><p>Amazing convenience.</p><p>Great prices.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROPERTIES ============ -->
+<section class="props" id="properties">
+  <div class="wrap">
+    <header class="sec-head sec-head--split">
+      <div>
+        <p class="eyebrow eyebrow--light">For property partners</p>
+        <h2 class="h-display" data-reveal>Bring FreshScent Box™ to your property.</h2>
+      </div>
+      <p class="lead" data-reveal>Are you an apartment or condominium property manager, office building owner or manager, or supermarket operator? Give your residents, employees, tenants, or customers access to excellent quality, wonderful service, amazing convenience, and great prices.</p>
+    </header>
+
+    <div class="props__grid">
+      <div class="tabs">
+        <div class="tabs__list" role="tablist" aria-label="Property type">
+          <button role="tab" id="tab-res" aria-controls="pane-res" aria-selected="true">Apartments &amp; condos</button>
+          <button role="tab" id="tab-off" aria-controls="pane-off" aria-selected="false" tabindex="-1">Office buildings</button>
+          <button role="tab" id="tab-sup" aria-controls="pane-sup" aria-selected="false" tabindex="-1">Supermarkets</button>
+        </div>
+        <div class="tabs__pane" role="tabpanel" id="pane-res" aria-labelledby="tab-res">
+          <h3>Give your residents an amenity they can actually use.</h3>
+          <p>FreshScent Box™ brings high-quality professional dry cleaning directly into your residential community. Residents no longer need to leave the property simply to drop off their dry cleaning.</p>
+          <p>FreshScent provides the convenience. Our professional team takes care of the cleaning. Your residents get their time back.</p>
+        </div>
+        <div class="tabs__pane" role="tabpanel" id="pane-off" aria-labelledby="tab-off" hidden>
+          <h3>Bring high-quality dry cleaning to the workplace.</h3>
+          <p>FreshScent Box™ gives employees and tenants an exceptionally convenient way to take care of their dry cleaning without adding another stop to their workday.</p>
+          <p>Drop it off on the way into the office. Pick it up after it has been professionally cleaned and returned.</p>
+        </div>
+        <div class="tabs__pane" role="tabpanel" id="pane-sup" aria-labelledby="tab-sup" hidden>
+          <h3>Give your customers another reason to visit.</h3>
+          <p>Customers drop off garments when they shop and pick them up professionally cleaned on a future visit. FreshScent handles pickup, high-quality cleaning, delivery, technology, and customer service. Your employees don’t have to operate the service.</p>
+          <p class="twovisits"><span>Drop-off</span><b>+</b><span>Pickup</span><em>Two additional reasons to visit your store.</em></p>
+        </div>
+        <figure class="props__img"><img src="assets/img/placements.webp" alt="FreshScent Boxes placed in an apartment lobby, an office tower, a supermarket and a hotel lobby" loading="lazy"></figure>
+      </div>
+
+      <form class="form" id="partnerForm" novalidate>
+        <h3>Request a FreshScent Box™</h3>
+        <div class="form__row">
+          <label for="f-name">Your name<input id="f-name" name="name" autocomplete="name" required></label>
+          <label for="f-email">Work email<input id="f-email" name="email" type="email" autocomplete="email" required></label>
+        </div>
+        <label for="f-type">Property type
+          <select id="f-type" name="type" required>
+            <option value="">Choose one</option>
+            <option>Apartment or condominium</option>
+            <option>Office building</option>
+            <option>Supermarket</option>
+            <option>Other</option>
+          </select>
+        </label>
+        <label for="f-prop">Property name and city<input id="f-prop" name="property" required></label>
+        <label for="f-msg">Anything we should know? <span class="opt">(optional)</span><textarea id="f-msg" name="message" rows="3"></textarea></label>
+        <button class="btn btn--leaf btn--block" type="submit">Send request</button>
+        <p class="form__note" id="formNote" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FIND ============ -->
+<section class="find" id="find">
+  <div class="wrap find__grid">
+    <div class="find__copy">
+      <p class="eyebrow">Find a FreshScent Box™</p>
+      <h2 class="h-display" data-reveal>High-quality dry cleaning may be closer than you think.</h2>
+      <p class="lead" data-reveal>Find a FreshScent Box™ conveniently located where you live, where you work, or where you shop.</p>
+      <form class="zip" id="zipForm" novalidate>
+        <label for="zip" class="sr">ZIP code or city</label>
+        <input id="zip" name="zip" placeholder="Enter ZIP code or city" autocomplete="postal-code" required>
+        <button class="btn btn--leaf" type="submit">Find a Box</button>
+      </form>
+      <p class="zip__msg" id="zipMsg" role="status" aria-live="polite"></p>
+    </div>
+    <figure class="find__img"><img src="assets/img/strip.webp" alt="A FreshScent Box outside a row of shops" loading="lazy"></figure>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="cta" id="cta">
+  <div class="wrap">
+    <h2 class="cta__title" data-reveal>High-quality dry cleaning is now part of your day. <em>Not another errand.</em></h2>
+    <div class="cta__row" data-stagger>
+      <p><b>Where you live.</b> Your apartment or condominium building.</p>
+      <p><b>Where you work.</b> Your office building.</p>
+      <p><b>Where you shop.</b> Your favorite supermarket.</p>
+    </div>
+    <p class="cta__big" data-reveal>Anytime. Day or night.</p>
+    <div class="cta__btns" data-reveal>
+      <a class="btn btn--leaf" href="#find">Find a FreshScent Box™</a>
+      <a class="btn btn--ghost" href="#properties">Bring it to your property</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FILM ============ -->
+<section class="film" id="film">
+  <div class="wrap">
+    <header class="film__head">
+      <p class="eyebrow eyebrow--light">FreshScent in motion</p>
+      <h2 class="h-display">Fresh clothes. <em>A brighter you.</em></h2>
+    </header>
+    <div class="film__frame">
+      <video id="meadowVideo" autoplay muted loop playsinline preload="auto" poster="assets/img/meadow-poster.webp" aria-label="A FreshScent Box standing in a sunlit flower meadow, with FreshScent written in a heart of clouds above a lake">
+        <source src="assets/video/meadow.webm" type="video/webm">
+        <source src="assets/video/meadow.mp4" type="video/mp4">
+      </video>
+      <p class="film__badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19c0-8 5-13 14-14-1 9-6 14-14 14Zm0 0 7-7"/></svg><span><small>FreshScent Box™</small>Anytime. Day or night.</span></p>
+      <button class="film__toggle" id="filmToggle" type="button" aria-label="Pause video"><svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14M16 5v14"/></svg><svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l12-7.5-12-7.5Z"/></svg></button>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="foot">
+  <div class="wrap foot__grid">
+    <div class="foot__brand">
+      <img src="assets/img/logo-full.png" alt="FreshScent Cleaner. Drop it off. Shop. We’ll take care of the rest." width="1365" height="737" loading="lazy">
+    </div>
+    <nav class="foot__col" aria-label="Footer">
+      <p class="foot__h">Explore</p>
+      <a href="#how">How it works</a><a href="#where">Locations</a><a href="#promise">Our promise</a><a href="#box">The Box</a>
+    </nav>
+    <nav class="foot__col" aria-label="Partners">
+      <p class="foot__h">Partners</p>
+      <a href="#properties">Apartments &amp; condos</a><a href="#properties">Office buildings</a><a href="#properties">Supermarkets</a>
+    </nav>
+    <div class="foot__col">
+      <p class="foot__h">Always open</p>
+      <p>Where you live. Where you work. Where you shop.<br>Anytime. Day or night.</p>
+    </div>
+  </div>
+  <div class="wrap foot__base">
+    <p>© <span id="yr">2026</span> FreshScent Box™. All rights reserved.</p>
+    <p class="foot__tm">Drop it off. We’ll take care of the rest.™</p>
+  </div>
+</footer>
+
+<script src="js/vendor/gsap.min.js"></script>
+<script src="js/vendor/ScrollTrigger.min.js"></script>
+<script src="js/vendor/lenis.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
