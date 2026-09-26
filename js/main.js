@@ -325,17 +325,5 @@
     });
   }
 
-  /* ---------------- why: strike-through ---------------- */
-  $$('#strike li').forEach(li => {
-    const span = $('span', li);
-    gsap.fromTo(span, { '--s': '0%' }, {
-      '--s': '100%', ease: 'none',
-      scrollTrigger: {
-        trigger: li, start: 'top 78%', end: 'top 52%', scrub: true,
-        onUpdate: self => li.classList.toggle('is-struck', self.progress > .95)
-      }
-    });
-  });
-
   window.addEventListener('load', () => ScrollTrigger.refresh());
 })();

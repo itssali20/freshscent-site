@@ -358,8 +358,6 @@ strong,b{font-weight:650}
 .strike{margin-top:clamp(28px,4vw,48px)}
 .strike li{padding:16px 0;border-bottom:1px solid var(--line)}
 .strike span{position:relative;font-family:var(--f-display);font-weight:400;font-size:clamp(1.15rem,1.8vw,1.6rem);line-height:1.25;display:inline}
-.strike span{background-image:linear-gradient(var(--leaf),var(--leaf));background-repeat:no-repeat;background-position:0 58%;background-size:var(--s,0%) 3px;transition:color .4s}
-.strike li.is-struck span{color:var(--muted)}
 .carousel{position:relative;border-radius:var(--r-lg);overflow:hidden;aspect-ratio:3/2;background:var(--ink)}
 .carousel__track{display:flex;width:100%;height:100%;transition:transform .55s var(--ease)}
 .carousel__slide{flex:0 0 100%;min-width:0;height:100%}
