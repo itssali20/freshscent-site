@@ -72,8 +72,18 @@
   const syncFilm = () => { const p = film.paused; filmBtn.classList.toggle('is-paused', p); filmBtn.setAttribute('aria-label', p ? 'Play video' : 'Pause video'); };
   filmBtn.addEventListener('click', () => { if (film.paused) { const q = film.play(); q && q.catch && q.catch(() => {}); } else film.pause(); });
   film.addEventListener('play', syncFilm); film.addEventListener('pause', syncFilm);
-  if (reduce) film.pause();
   syncFilm();
+  // Only download and start the film once it nears the screen (it's 3MB, far down the page)
+  if (!reduce) {
+    let userPaused = false;
+    filmBtn.addEventListener('click', () => { userPaused = film.paused; }); // runs after the toggle above
+    const startFilm = () => { if (userPaused) return; film.preload = 'auto'; const q = film.play(); q && q.catch && q.catch(() => {}); };
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(entries => entries.forEach(en => {
+        if (en.isIntersecting) startFilm(); else if (!film.paused) film.pause();
+      }), { rootMargin: '300px 0px' }).observe(film);
+    } else startFilm();
+  }
 
   // Why: image carousel (arrows + dots)
   const whyTrack = $('#whyCarouselTrack');

@@ -1,0 +1,5 @@
+# FreshScent Box — all public pages may be crawled
+User-agent: *
+Allow: /
+
+Sitemap: https://freshscentbox.com/sitemap.xml

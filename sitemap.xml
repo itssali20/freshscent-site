@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Add a <url> block for every new page. Update <lastmod> (YYYY-MM-DD) when a page changes. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://freshscentbox.com/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <image:image><image:loc>https://freshscentbox.com/assets/img/hero.webp</image:loc></image:image>
+    <image:image><image:loc>https://freshscentbox.com/assets/img/courier.webp</image:loc></image:image>
+    <image:image><image:loc>https://freshscentbox.com/assets/img/box-navy.webp</image:loc></image:image>
+    <image:image><image:loc>https://freshscentbox.com/assets/img/box-wave.webp</image:loc></image:image>
+    <image:image><image:loc>https://freshscentbox.com/assets/img/box-mosaic.webp</image:loc></image:image>
+    <image:image><image:loc>https://freshscentbox.com/assets/img/spec.webp</image:loc></image:image>
+    <image:image><image:loc>https://freshscentbox.com/assets/img/placements.webp</image:loc></image:image>
+    <image:image><image:loc>https://freshscentbox.com/assets/img/strip.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://freshscentbox.com/station</loc>
+    <lastmod>2026-10-13</lastmod>
+    <image:image><image:loc>https://freshscentbox.com/assets/img/station/station-collection-preview.webp</image:loc></image:image>
+    <image:image><image:loc>https://freshscentbox.com/assets/img/station/station-water-feature.webp</image:loc></image:image>
+    <image:image><image:loc>https://freshscentbox.com/assets/img/station/station-art-shell.webp</image:loc></image:image>
+    <image:image><image:loc>https://freshscentbox.com/assets/img/station/station-contemporary-abstract.webp</image:loc></image:image>
+    <image:image><image:loc>https://freshscentbox.com/assets/img/station/station-mirror-lobby.webp</image:loc></image:image>
+    <image:image><image:loc>https://freshscentbox.com/assets/img/station/station-art-seascape.webp</image:loc></image:image>
+    <image:image><image:loc>https://freshscentbox.com/assets/img/station/station-mirror-family.webp</image:loc></image:image>
+  </url>
+</urlset>
